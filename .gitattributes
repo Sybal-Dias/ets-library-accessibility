@@ -1,8 +1,10 @@
-# Force Python as main language
+# Mark Python source files
 *.py linguist-language=Python
-*.ipynb linguist-language=Python
 
-# Treat HTML & images as documentation, not code
+# Mark Jupyter Notebook files properly
+*.ipynb linguist-language=Jupyter Notebook
+
+# Treat HTML and images as documentation, not code
 *.html linguist-documentation
 *.png linguist-documentation
 *.jpg linguist-documentation
