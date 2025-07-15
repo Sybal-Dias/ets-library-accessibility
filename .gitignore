@@ -1,0 +1,18 @@
+# Python cache and bytecode
+__pycache__/
+*.pyc
+
+# Jupyter checkpoint files
+.ipynb_checkpoints/
+
+# Ignore virtual envs (if any)
+.env/
+venv/
+
+# Ignore data outputs and visuals
+data/processed/
+visualizations/
+
+# OS junk files
+.DS_Store
+Thumbs.db
