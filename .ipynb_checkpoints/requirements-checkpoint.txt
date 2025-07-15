@@ -1,0 +1,7 @@
+jupyter jupyterlab
+pandas
+geopy
+folium
+numpy
+matplotlib
+Template
