@@ -18,25 +18,47 @@ This geospatial project analyzes how **accessible public libraries are via Edmon
 
 ## Project Structure
 See folder layout for:
-- `data/`: raw and processed datasets
-- `src/`: reusable Python code
-- `visualizations/`: generated map and bar chart
-
+project-root/
+├── data/
+│ ├── raw/ # Original datasets
+│ └── processed/ # Enriched dataset with library distances
+├── visualizations/ # HTML map & bar chart image
+├── src/ # Python scripts and analysis
+├── .gitignore
+├── .gitattributes
+├── README.md
 
 ## Key Findings
 
-- 20% of ETS bus stops are within 1 km of a library.
+- % of ETS bus stops are within 1 km of a library.
 - West and NW neighborhoods have the least access.
 - Map clearly visualizes transit-library access gap.
 
-## How to Run
+## Run in Jupyter Notebook
 
-1. Clone the repo
-2. Install requirements: `pip install -r requirements.txt`
-3. Run `scripts/ets_library_accessibility.py`
-4. Open `visualizations/accessibility_map.html` in your browser
+This project was developed using **Jupyter Notebook** for an interactive experience.
+
+1. Install JupyterLab:
+```bash
+pip install jupyterlab
+```
+
+2. Launch JupyterLab:
+```bash
+jupyter lab
+```
+
+3. Open and run `ets_library_accessibility.ipynb` to explore and visualize the data interactively.
 <img width="400" height="370" alt="image" src="https://github.com/user-attachments/assets/0ee3259d-bf9b-49dd-8b2a-75df18668848" />
 
 
-At the end of the story remember to  run the following command in your bash to savescripts files of the .ipynb
-jupyter nbconvert --to script ets_library_main.ipynb
+## 📊 Interactive Tableau Dashboard
+
+Explore an interactive dashboard visualizing:
+
+🗺️ A Map of all ETS bus stops color-coded by distance to the nearest public library
+
+📊 A Bar Chart showing the percentage of stops that are underserved (>1 km from a library)
+
+👉 Click here to view Dashboard on [Tableau Public](https://public.tableau.com/views/ets-bus-stop-library-proximity/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+Built using cleaned data from this project and visualized with latitude, longitude, and categorized access data. 
