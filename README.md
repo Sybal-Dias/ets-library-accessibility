@@ -19,14 +19,14 @@ This geospatial project analyzes how **accessible public libraries are via Edmon
 ## Project Structure
 See folder layout for:
 project-root/
-├── data/
-│ ├── raw/ # Original datasets
-│ └── processed/ # Enriched dataset with library distances
-├── visualizations/ # HTML map & bar chart image
-├── src/ # Python scripts and analysis
-├── .gitignore
-├── .gitattributes
-├── README.md
+ ├── data/
+ │ ├── raw/ # Original datasets
+ │ └── processed/ # Enriched dataset with library distances
+ ├── visualizations/ # HTML map & bar chart image
+ ├── src/ # Python scripts and analysis
+ ├── .gitignore
+ ├── .gitattributes
+ ├── README.md
 
 ## Key Findings
 
